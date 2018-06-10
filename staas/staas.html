@@ -1,16 +1,21 @@
 <html>
-<head>
-<title>
-user input
-</title>
-</head>
-<body>
-<form action="http://192.168.122.67/cgi-bin/st.cgi">
-        <input type="text" name="dn" placeholder="enter drive name" required></br>
+	<head>
+		<title>
+			user input
+		</title>
+	</head>
 
-        <input type="number" name="ds" placeholder="enter drive size" required></br>
-        <input type="submit" value="submit">
-</form> 
-</body>
+	<body>
+		<form action="http://192.168.122.67/cgi-bin/st.cgi" method="POST">
+			
+        		<input type="text" name="dn" placeholder="enter drive name" required></br>
+
+			
+        		<input type="number" name="ds" placeholder="enter drive size" required></br>
+
+			
+        		<input type="submit" value="submit">
+		</form> 
+	</body>
 </html>
 
